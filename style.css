@@ -58,3 +58,36 @@ div.news-important-button {
 div.news-important-button::after {
   content: "　>";
 }
+div.category-header {
+  padding: 6rem 0;
+}
+header.category-header-title {
+  font-size: 2rem;
+  text-align: center;
+}
+div.category-header-description {
+  text-align: center;
+}
+div.categories {
+  padding: 0 1.66rem;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.66rem;
+  justify-content: space-between;
+}
+div.category-item {
+  width: 165px;
+  height: 165px;
+  object-fit: cover;
+  position: relative;
+}
+header.category-item-title {
+  font-size: 1.33rem;
+  position: absolute;
+  z-index: 1;
+}
+img.category-item-image {
+  position: absolute;
+}
