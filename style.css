@@ -6,8 +6,20 @@ body {
   box-sizing: border-box;
 }
 
-header > div.title {
-  font-size: 2rem;
+div.menu {
+  width: 100vw;
+  height: 5.3rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+  overflow: hidden;
   padding-left: 1.66rem;
-  padding-top: 1.25rem;
+  padding-right: 1.66rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header.title {
+  font-size: 2rem;
 }
