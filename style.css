@@ -3,6 +3,8 @@ body {
   font-family: "M PLUS 1p", sans-serif;
   font-family: "Noto Sans JP", sans-serif;
   font-size: 12px;
+  line-height: 1.8rem;
+
   box-sizing: border-box;
 }
 
@@ -22,4 +24,37 @@ div.menu {
 
 header.title {
   font-size: 2rem;
+}
+
+.hero {
+  width: 100vw;
+  height: calc(100vh - 5.3rem);
+  background-image: url("https://placehold.jp/390x780.png");
+}
+
+div.news-important {
+  background-color: black;
+  color: white;
+}
+
+header.news-important-title {
+  font-size: 1.16rem;
+  text-align: center;
+  padding: 2.3rem;
+}
+article.news-important-content::before {
+  content: ">";
+}
+article.news-important-content {
+  padding: 0 1.6rem;
+}
+article.news-important-content:nth-child(n + 3) {
+  padding-top: 1rem;
+}
+div.news-important-button {
+  text-align: center;
+  padding: 2.3rem;
+}
+div.news-important-button::after {
+  content: "　>";
 }
