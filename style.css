@@ -108,7 +108,6 @@ div.inquiries {
 }
 div.inquiry-item {
   width: calc(25.6vw + 2rem);
-  aspect-ratio: 1 / 1;
   flex: 1;
 }
 a._link {
