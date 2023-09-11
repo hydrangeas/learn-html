@@ -98,3 +98,38 @@ img.category-item-image {
   aspect-ratio: 1 / 1;
   object-fit: fill;
 }
+
+div.inquiries {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+
+  display: flex;
+  flex-direction: row;
+}
+div.inquiry-item {
+  width: calc(25.6vw + 2rem);
+  aspect-ratio: 1 / 1;
+  flex: 1;
+}
+a._link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  padding: 3rem 1rem;
+}
+div.inquiries > div.inquiry-item:not(:first-child) > a._link::before {
+  content: "";
+  width: 1px;
+  height: 97px;
+  background-color: #e6e6e6;
+  position: absolute;
+  inset-inline-start: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+header.inquiry-item-title {
+  font-size: 1.33rem;
+}
