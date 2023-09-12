@@ -152,3 +152,36 @@ div.about-item {
   margin: 0 auto 1.66rem auto;
   text-align: center;
 }
+
+div.news-item {
+  width: 90vw;
+  margin: 0 auto;
+}
+div.news-item:not(:last-child) {
+  padding-bottom: 2rem;
+}
+div.news-meta {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+div.news-posted {
+  color: #999;
+}
+div.news-category {
+  padding-left: 1rem;
+}
+div.news-list-button {
+  width: 21.3rem;
+  height: 4rem;
+  position: relative;
+  margin: 5.4rem auto;
+  border: #000 solid 1px;
+}
+a.news-list-button-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
