@@ -197,3 +197,24 @@ div.inquiry-button-area {
 div.inquiry-button {
   border: #fff solid 1px;
 }
+
+div.footer {
+  background-color: black;
+  color: white;
+}
+div.footer > ul._list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+div.footer > ul._list > li._item {
+  width: calc(50vw - 0.66rem);
+  padding-inline-start: 0.75rem;
+}
+div.footer > ul._list > li._item::before {
+  content: "-";
+  inset-inline-start: 0;
+  top: -0.125px;
+}
