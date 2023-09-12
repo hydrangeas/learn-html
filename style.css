@@ -171,11 +171,14 @@ div.news-posted {
 div.news-category {
   padding-left: 1rem;
 }
+div.news-list-button-area {
+  padding: 3.5rem 0;
+}
 div.news-list-button {
   width: 21.3rem;
   height: 4rem;
   position: relative;
-  margin: 5.4rem auto;
+  margin: 0 auto;
   border: #000 solid 1px;
 }
 a.news-list-button-text {
@@ -184,4 +187,13 @@ a.news-list-button-text {
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
+}
+
+div.inquiry-button-area {
+  padding: 3.5rem 0;
+  color: white;
+  background-color: #1a1a1a;
+}
+div.inquiry-button {
+  border: #fff solid 1px;
 }
