@@ -110,7 +110,7 @@ div.inquiry-item {
   width: calc(25.6vw + 2rem);
   flex: 1;
 }
-a._link {
+div.inquiries > div.inquiry-item > a._link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,4 +131,24 @@ div.inquiries > div.inquiry-item:not(:first-child) > a._link::before {
 }
 header.inquiry-item-title {
   font-size: 1.33rem;
+}
+div.about {
+  background-color: black;
+}
+header.about-title {
+  color: white;
+  font-size: 2rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+div.about-items {
+  display: flex;
+  flex-direction: column;
+}
+div.about-item {
+  width: 90vw;
+  background-color: #e9e9e9;
+  margin: 0 auto 1.66rem auto;
+  text-align: center;
 }
