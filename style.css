@@ -207,7 +207,6 @@ div.footer > ul._list {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 auto;
 }
 div.footer > ul._list > li._item {
   width: calc(50vw - 0.66rem);
