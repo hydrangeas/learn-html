@@ -198,20 +198,20 @@ div.inquiry-button {
   border: #fff solid 1px;
 }
 
-div.footer {
+footer.footer {
   background-color: black;
   color: white;
 }
-div.footer > div.container {
+footer.footer > div.container {
   padding: 2rem 1rem;
 }
-div.footer > div.container > div.footer-nav > div._main > div.footer-menu {
+footer.footer > div.container > div.footer-nav > div._main > div.footer-menu {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-div.footer
+footer.footer
   > div.container
   > div.footer-nav
   > div._main
@@ -220,10 +220,10 @@ div.footer
   width: calc(50vw - 1rem);
   padding-inline-start: 0.75rem;
 }
-div.footer > div.container > div.footer-nav {
+footer.footer > div.container > div.footer-nav {
   padding-bottom: 1.25rem;
 }
-div.footer
+footer.footer
   > div.container
   > div.footer-nav
   > div._main
@@ -233,7 +233,7 @@ div.footer
   > li._item {
   padding-inline-start: 0.75rem;
 }
-div.footer
+footer.footer
   > div.container
   > div.footer-nav
   > div._main
@@ -246,7 +246,7 @@ div.footer
   top: -0.125px;
 }
 
-div.footer > div.container > ul._list {
+footer.footer > div.container > ul._list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -254,12 +254,22 @@ div.footer > div.container > ul._list {
   padding-top: 1.25rem;
   border-top: #333 solid 1px;
 }
-div.footer > div.container > ul._list > li._item {
+footer.footer > div.container > ul._list > li._item {
   width: calc(50vw - 1rem);
   padding-inline-start: 0.75rem;
 }
-div.footer > div.container > ul._list > li._item::before {
+footer.footer > div.container > ul._list > li._item::before {
   content: "-";
   inset-inline-start: 0;
   top: -0.125px;
+}
+div.sns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+div.copyright {
+  text-align: center;
 }
